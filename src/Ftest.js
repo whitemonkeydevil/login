@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
+
 import './App.css';
+
 
 class App extends Component{
   constructor(props){
@@ -27,6 +29,7 @@ class App extends Component{
     console.log(e.target.value)
   }
 
+  
   Onclick=(e)=>{
     const{username,password}=this.state;
     fetch('https://cors-anywhere.herokuapp.com/http://siesgst.edu.in/agnostech/login',
@@ -39,15 +42,15 @@ class App extends Component{
           email:username,
           password:password
        })
-    }) 
+    })
+    
     .then(res => res.json())
-
     .then((data) => { 
-      if(data.status)
+      if(data.status==="success")
       { this.setState({
         isLoggedIn:true,
-        data:data.data
-
+        items:data.items
+        
       })
       }
       console.log(data)
@@ -59,31 +62,17 @@ class App extends Component{
     const {password,username,isLoggedIn,data}=this.state
     
    if(isLoggedIn){
-     return(
-       <div>
-         {data.map((value)=>{
-      const{branch,created_at,description,file_location,id,image_location,status,sub_type,title,type,updated_at,year}=value
+     data.map=(()=>{
+      
+      this.setState({
+        data
+      })
      return(
        <div>  
-          <p>{branch}</p>
-          <p>{created_at}</p>
-          <p>{description}</p>
-         <p>{file_location}</p>
-         <p>{id}</p>
-         <p>{image_location}</p>
-         <p>{status}</p>
-         <p>{sub_type}</p>
-         <p>{title}</p>
-         <p>{type}</p>
-         <p>{updated_at}</p>
-         <p>{year}</p>
+          {data}
        </div>
      )
-        }
-        )  
-        }
-       </div>
-     )
+   },10)
    }
    else
    
