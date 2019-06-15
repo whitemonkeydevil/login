@@ -1,0 +1,467 @@
+{
+"status": true,
+"doctor": [
+{
+"_id": "5ca89279b1473a32dc26f7a5",
+"name": "HARISH BALASUBRAMANIAN",
+"email": "harish.balasubramanian15@siesgst.ac.in",
+"gender": "male",
+"dateOfBirth": "1997-11-18T18:30:00.000Z",
+"bloodGroup": "B+",
+"contact": 7021909969,
+"role": "doctor",
+"uid": "Fygsdi3Fr",
+"createdAt": "2019-04-06T11:50:17.154Z",
+"updatedAt": "2019-04-26T09:49:06.659Z",
+"__v": 0,
+"patientList": [
+{
+"appointment": [],
+"_id": "5cb8cb0b764db130741acaa4",
+"patientID": "5ca892ac965cad2a8c12a431",
+"patientNO": "Uhy0twY_i"
+},
+{
+"appointment": [],
+"_id": "5cb8cb3c764db130741acaa5",
+"patientID": "5cb252740785304888f3ab96",
+"patientNO": "Gq8xlBYLe"
+},
+{
+"appointment": [],
+"_id": "5cb8ce272fa66b1774a389b8",
+"patientID": "5cb252ad0785304888f3ab97",
+"patientNO": "OJrNBP4Ud"
+},
+{
+"appointment": [],
+"_id": "5cc2d2dbcb76013f4410ea4b",
+"patientID": "5cc2d22dcb76013f4410ea4a",
+"patientNO": "cbOxwcGDa"
+}
+],
+"prescription": [
+{
+"_id": "5cc15180a16c5a05d04a0e2e",
+"prescriptionid": "5cc15180a16c5a05d04a0e2c",
+"patintno": "Gq8xlBYLe"
+},
+{
+"_id": "5cc15233a16c5a05d04a0e31",
+"prescriptionid": "5cc15180a16c5a05d04a0e2c",
+"patintno": "Gq8xlBYLe"
+},
+{
+"_id": "5cc1acd52985ab3e8833a4ca",
+"prescriptionid": "5cc15180a16c5a05d04a0e2c",
+"patintno": "Gq8xlBYLe"
+},
+{
+"_id": "5cc2d3afcb76013f4410ea4d",
+"prescriptionid": "5cc15180a16c5a05d04a0e2c",
+"patintno": "Gq8xlBYLe"
+},
+{
+"_id": "5cc2d412cb76013f4410ea51",
+"prescriptionid": "5cc2d412cb76013f4410ea4f",
+"patintno": "Uhy0twY_i"
+}
+],
+"imageUrl": "https://lh4.googleusercontent.com/-DuzMaJCg9XY/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfU9AYftP4P5Ugmw92RMXWz1-gFLw/mo/photo.jpg"
+},
+{
+"_id": "5cc1b1684deffa344846bb0a",
+"name": "Sudharshan Murugesan",
+"email": "sudharshan.murugesan15@siesgst.ac.in",
+"gender": "male",
+"dateOfBirth": "1997-11-18T18:30:00.000Z",
+"bloodGroup": "B+",
+"contact": 98989898,
+"role": "doctor",
+"uid": "Lygsdi3Fr",
+"createdAt": "2019-04-06T11:50:17.154Z",
+"updatedAt": "2019-04-25T13:10:53.137Z",
+"__v": 0,
+"patientList": [
+{
+"appointment": [],
+"_id": "5cb8cb0b764db130741acaa4",
+"patientID": "5ca892ac965cad2a8c12a431",
+"patientNO": "Uhy0twY_i"
+},
+{
+"appointment": [],
+"_id": "5cb8cb3c764db130741acaa5",
+"patientID": "5cb252740785304888f3ab96",
+"patientNO": "Gq8xlBYLe"
+},
+{
+"appointment": [],
+"_id": "5cb8ce272fa66b1774a389b8",
+"patientID": "5cb252ad0785304888f3ab97",
+"patientNO": "OJrNBP4Ud"
+}
+],
+"prescription": [
+{
+"_id": "5cc15180a16c5a05d04a0e2e",
+"prescriptionid": "5cc15180a16c5a05d04a0e2c",
+"patintno": "Gq8xlBYLe"
+},
+{
+"_id": "5cc15233a16c5a05d04a0e31",
+"prescriptionid": "5cc15180a16c5a05d04a0e2c",
+"patintno": "Gq8xlBYLe"
+},
+{
+"_id": "5cc1acd52985ab3e8833a4ca",
+"prescriptionid": "5cc15180a16c5a05d04a0e2c",
+"patintno": "Gq8xlBYLe"
+},
+{
+"_id": "5cc1b1dd2985ab3e8833a4ce",
+"prescriptionid": "5cc1b1dd2985ab3e8833a4cc",
+"patintno": "Gq8xlBYLe"
+}
+],
+"imageUrl": "https://lh3.googleusercontent.com/-wPc9QBgA1Wk/XMHsyNeSQiI/AAAAAAAABAc/YSiNNr_IViI22iEOJK6OMwtbsojprVJEwCMICGAYYCw/s96-c/CROP_1551336793320.jpeg"
+}
+],
+"user": [
+{
+"_id": "5ca892ac965cad2a8c12a431",
+"name": "Harish B",
+"email": "harish.numb19@gmail.com",
+"imageUrl": "https://lh6.googleusercontent.com/-dPmxJlVxfw4/AAAAAAAAAAI/AAAAAAAASyA/j8LZW2Wz-A8/photo.jpg",
+"gender": "male",
+"dateOfBirth": "1997-11-18T18:30:00.000Z",
+"bloodGroup": "B+",
+"contact": 9167303687,
+"role": "patient",
+"uid": "Uhy0twY_i",
+"emergency": [
+{
+"name": "pratibha",
+"relation": "Mother",
+"contact": 9819877381
+}
+],
+"prescription": [
+{
+"_id": "5cc2d412cb76013f4410ea52"
+}
+],
+"allergies": [
+{
+"name": "AYURVEDIC"
+},
+{
+"name": "GLIPIZIDE"
+}
+],
+"createdAt": "2019-04-06T11:51:08.199Z",
+"updatedAt": "2019-04-26T09:49:06.688Z",
+"__v": 0
+},
+{
+"_id": "5cb252740785304888f3ab96",
+"name": "Harish Balasubramanian",
+"email": "harish.b@denkali.com",
+"imageUrl": "https://lh4.googleusercontent.com/-8UcKXunP5YY/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdl1dLfej8N2FMvUQX9q-PeArUHxw/mo/photo.jpg",
+"gender": "male",
+"dateOfBirth": "1970-02-26T18:30:00.000Z",
+"bloodGroup": "O+",
+"contact": 9816899784,
+"role": "patient",
+"uid": "Gq8xlBYLe",
+"emergency": [
+{
+"name": "vedadnya",
+"contact": 8765489875,
+"relation": "Brother"
+},
+{
+"name": "pratibha",
+"contact": 9647624892,
+"relation": "mom"
+}
+],
+"prescription": [
+{
+"_id": "5cc15181a16c5a05d04a0e2f"
+},
+{
+"_id": "5cc15233a16c5a05d04a0e32"
+},
+{
+"_id": "5cc1acd52985ab3e8833a4cb"
+},
+{
+"_id": "5cc1b1dd2985ab3e8833a4cf"
+},
+{
+"_id": "5cc2d3afcb76013f4410ea4e"
+}
+],
+"allergies": [
+{
+"name": "Nicoumalone"
+},
+{
+"name": "Methyl Salicylate"
+},
+{
+"name": "Acenocoumarol"
+}
+],
+"createdAt": "2019-04-13T21:19:48.768Z",
+"updatedAt": "2019-04-26T09:47:27.237Z",
+"__v": 0
+},
+{
+"_id": "5cb252ad0785304888f3ab97",
+"name": "TECH COUNCIL",
+"email": "council_tech@siesgst.ac.in",
+"imageUrl": "https://lh3.googleusercontent.com/-UDSz4vAJjlI/AAAAAAAAAAI/AAAAAAAAAF4/FBah3Fj_gwI/photo.jpg",
+"gender": "female",
+"dateOfBirth": "1970-02-22T18:30:00.000Z",
+"bloodGroup": "AB-",
+"contact": 78457845,
+"role": "patient",
+"uid": "OJrNBP4Ud",
+"emergency": [],
+"prescription": [],
+"allergies": [],
+"createdAt": "2019-04-13T21:20:45.962Z",
+"updatedAt": "2019-04-13T21:20:45.962Z",
+"__v": 0
+},
+{
+"_id": "5cbad36add5ad42dfc9163fc",
+"name": "Siddharth Poduval",
+"email": "siddharth.poduval15@siesgst.ac.in",
+"imageUrl": "https://lh3.googleusercontent.com/-mdbDAbj_57g/AAAAAAAAAAI/AAAAAAAAABU/BJAzJhJnL90/photo.jpg",
+"gender": "male",
+"dateOfBirth": "1998-05-11T18:30:00.000Z",
+"bloodGroup": "A+",
+"contact": 9819360843,
+"role": "patient",
+"uid": "6J-Noto70",
+"emergency": [],
+"prescription": [],
+"allergies": [],
+"createdAt": "2019-04-20T08:08:10.402Z",
+"updatedAt": "2019-04-20T08:08:10.402Z",
+"__v": 0
+},
+{
+"_id": "5cc02faa1205ed2b14a1e608",
+"name": "ANURAM NADAR",
+"email": "anuram.nadar15@siesgst.ac.in",
+"imageUrl": "https://lh3.googleusercontent.com/-GDQZdd2WJBQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfwebrpi2tvYPlWqmSrFtyB3O5RPg/mo/photo.jpg",
+"gender": "male",
+"dateOfBirth": "1997-10-19T18:30:00.000Z",
+"bloodGroup": "A+",
+"contact": 9864654313,
+"role": "patient",
+"uid": "sDWzyMV_b",
+"emergency": [],
+"prescription": [],
+"allergies": [],
+"createdAt": "2019-04-24T09:43:06.407Z",
+"updatedAt": "2019-04-24T09:43:06.407Z",
+"__v": 0
+},
+{
+"_id": "5cc2d22dcb76013f4410ea4a",
+"name": "Medi Sant",
+"email": "medisantbe@gmail.com",
+"imageUrl": "https://lh6.googleusercontent.com/-_ecfXu3WpmU/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdxG0_QvUE_gpiocK_tbS6s_lpeDA/mo/photo.jpg",
+"gender": "male",
+"dateOfBirth": "1999-04-01T18:30:00.000Z",
+"bloodGroup": "B-",
+"contact": 7021909969,
+"role": "patient",
+"uid": "cbOxwcGDa",
+"emergency": [],
+"prescription": [],
+"allergies": [],
+"createdAt": "2019-04-26T09:41:01.396Z",
+"updatedAt": "2019-04-26T09:41:01.396Z",
+"__v": 0
+}
+],
+"prescription": [
+{
+"_id": "5cc15180a16c5a05d04a0e2c",
+"pid": "Gq8xlBYLe",
+"did": "5ca89279b1473a32dc26f7a5",
+"prescription": [
+{
+"_id": "5cc15180a16c5a05d04a0e2d",
+"findings": {
+"0": {
+"name": "Head injury"
+}
+},
+"notes": "accident hua to game hogaya ! Operation he karna padega",
+"medicine": {
+"0": {
+"name": "ALAMIN XTRA Capsule 10's",
+"when": {
+"Before Lunch": 1,
+"Before Dinner": 1,
+"Before Breakfast": 1
+},
+"duration": "May 18, 2019"
+},
+"1": {
+"name": "ALA 100mg Capsule 15's",
+"when": {
+"Before Breakfast": 1,
+"Before Lunch": 1,
+"Before Dinner": 1
+},
+"duration": "Apr 30, 2019"
+}
+},
+"createdAt": "2019-04-25T06:19:44.904Z",
+"updatedAt": "2019-04-25T06:19:44.904Z"
+},
+{
+"_id": "5cc15232a16c5a05d04a0e30",
+"findings": {
+"0": {
+"name": "Ligament tear\u000bconnection between two bones"
+}
+},
+"notes": "left hand swollen ",
+"medicine": {
+"0": {
+"name": "ADILAN 10mg Tablet 10's",
+"when": {
+"Before Lunch": 1,
+"Before Dinner": 1
+},
+"duration": "Apr 30, 2019"
+},
+"1": {
+"name": "ALOES COMPOUND Tablet 1000's",
+"when": {
+"After Dinner": 1,
+"After Lunch": 1
+},
+"duration": "Apr 30, 2019"
+}
+},
+"createdAt": "2019-04-25T06:22:42.987Z",
+"updatedAt": "2019-04-25T06:22:42.987Z"
+},
+{
+"_id": "5cc1acd52985ab3e8833a4c9",
+"findings": {
+"0": {
+"name": "Head injury in children\u000bNon-accidental traumatic head injury to child"
+}
+},
+"notes": "test",
+"medicine": {
+"0": {
+"name": "ALFLOX 400mg Tablet 10's",
+"when": {
+"Before Lunch": 1
+},
+"duration": "Apr 24, 2019"
+}
+},
+"createdAt": "2019-04-25T12:49:25.799Z",
+"updatedAt": "2019-04-25T12:49:25.799Z"
+},
+{
+"_id": "5cc2d3afcb76013f4410ea4c",
+"findings": {
+"0": {
+"name": "Ligament tear\u000bconnection between two bones"
+}
+},
+"notes": "ft7fguhdh",
+"medicine": {
+"0": {
+"name": "ASCAPIL 12A Tablet",
+"when": {
+"Before Breakfast": 1,
+"After Dinner": 1
+},
+"duration": "May 31, 2019"
+}
+},
+"createdAt": "2019-04-26T09:47:27.185Z",
+"updatedAt": "2019-04-26T09:47:27.185Z"
+}
+],
+"createdAt": "2019-04-25T06:19:44.931Z",
+"updatedAt": "2019-04-26T09:47:27.198Z",
+"__v": 0
+},
+{
+"_id": "5cc1b1dd2985ab3e8833a4cc",
+"pid": "Gq8xlBYLe",
+"did": "5cc1b1684deffa344846bb0a",
+"prescription": [
+{
+"_id": "5cc1b1dd2985ab3e8833a4cd",
+"findings": {
+"0": {
+"name": "Cardiac arrest\u000bheart stops"
+}
+},
+"notes": "mar gaya",
+"medicine": {
+"0": {
+"name": "ALAMIN XTRA Capsule 10's",
+"when": {
+"Before Breakfast": 1
+},
+"duration": "Apr 29, 2019"
+}
+},
+"createdAt": "2019-04-25T13:10:53.098Z",
+"updatedAt": "2019-04-25T13:10:53.098Z"
+}
+],
+"createdAt": "2019-04-25T13:10:53.114Z",
+"updatedAt": "2019-04-25T13:10:53.114Z",
+"__v": 0
+},
+{
+"_id": "5cc2d412cb76013f4410ea4f",
+"pid": "Uhy0twY_i",
+"did": "5ca89279b1473a32dc26f7a5",
+"prescription": [
+{
+"_id": "5cc2d412cb76013f4410ea50",
+"findings": {
+"0": {
+"name": "Headache"
+}
+},
+"notes": "twft",
+"medicine": {
+"0": {
+"name": "AQUIRIS 6.25mg Tablet 10's",
+"when": {
+"Before Breakfast": 1
+},
+"duration": "Apr 27, 2019"
+}
+},
+"createdAt": "2019-04-26T09:49:06.633Z",
+"updatedAt": "2019-04-26T09:49:06.633Z"
+}
+],
+"createdAt": "2019-04-26T09:49:06.645Z",
+"updatedAt": "2019-04-26T09:49:06.645Z",
+"__v": 0
+}
+]
+}
